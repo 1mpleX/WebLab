@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-
-<html align="center">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tasks</title>
+</head>
+<body>
     <h1>Tasks</h1>
-    <a href="task_add.html" class="add-task-link">
-        <h3>
-            Create New Task
-        </h3>
+    <a href="task_add.html" class="href">
+        <h3>Create New Task</h3>
     </a>
-    <body>
-        <table align="center">
-            <thead>
-                <tr>
-                    <th>Tasks</th>
-                    <th>Working</th>
-                    <th>completed</th>
-                    <th>actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Task_1</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><button>delete</button></td>
-                </tr>
-                <tr>
-                    <td>Task_2</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><button>delete</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+    <table>
+        <thead>
+            <tr>
+                <th>Tasks</th>
+                <th>Working</th>
+                <th>Completed</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Task 1</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><button class="delete-button">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Task 2</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><button class="delete-button">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 </html>
